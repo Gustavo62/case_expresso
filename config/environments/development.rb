@@ -39,6 +39,10 @@ Rails.application.configure do
   # Don't care if the mailer can't send.
   config.action_mailer.raise_delivery_errors = false
 
+  config.i18n.enforce_available_locales = false
+  config.i18n.available_locales = ["pt-BR"]
+  config.i18n.default_locale = :"pt-BR"
+
   config.action_mailer.delivery_method = :smtp
   host = 'localhost:3000'
   config.action_mailer.default_url_options = { host: host }

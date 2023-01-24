@@ -1,0 +1,22 @@
+# Add configuration values here, as shown below.
+#
+# pusher_app_id: "2954"
+# pusher_key: 7381a978f7dd7f9a1117
+# pusher_secret: abdc3b896a0ffb85d373
+# stripe_api_key: sk_test_2J0l093xOyW72XUYJHE4Dv2r
+# stripe_publishable_key: pk_test_ro9jV5SNwGb1yYlQfzG17LHK
+#
+development:
+  primary_key: jfnfmUPjNg0j4eDFuHCXSsDgGUD35whK
+  deterministic_key: ru3o0SYyu6Zq0A0SWSdeuthQqglUgJbX
+  key_derivation_salt: dxn4YXhD61vFUpat2g3CNrEOT5ebsgdN
+  
+  email_reset_password: 'expressocase@gmail.com'
+  
+  
+  HCAPTCHA_SITE_KEY: 'f8e6ae02-cdcd-4ad7-b713-8da25fb31b05'
+  HCAPTCHA_SECRET_KEY: '0xaE695C7Fa6bfB246cd63E690948Da3bE67c6A8fF'
+
+# production:
+#   stripe_api_key: sk_live_EeHnL644i6zo4Iyq4v1KdV9H
+#   stripe_publishable_key: pk_live_9lcthxpSIHbGwmdO941O1XVU

@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   devise_for :users, controllers: {
-    sessions: 'sessions'
+    sessions: 'users/sessions',
+    registrations: 'users/registrations'
   }
   root 'home#index'
   resource :two_factor_settings, except: [:index, :show]

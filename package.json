@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "@hcaptcha/types": "^1.0.3"
+  }
+}
