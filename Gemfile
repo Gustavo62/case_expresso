@@ -71,9 +71,12 @@ group :test do
   gem "webdrivers"
 end
 
+gem "jquery-rails"
 gem 'bootstrap', '~> 5.1.3'
 gem "devise"
 gem 'devise-two-factor'
 gem 'rqrcode'
 gem 'simple_form'
 gem "figaro"
+gem 'devise-automaticlogout'
+gem 'recaptcha'

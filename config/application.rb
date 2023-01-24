@@ -21,5 +21,9 @@ module Case
     config.active_record.encryption.primary_key = Figaro.env.primary_key
     config.active_record.encryption.deterministic_key = Figaro.env.deterministic_key
     config.active_record.encryption.key_derivation_salt = Figaro.env.key_derivation_salt
+
+    config.to_prepare do
+      Devise::Models::Lockable.included(User)
+    end
   end
 end
