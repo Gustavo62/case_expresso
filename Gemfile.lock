@@ -101,9 +101,6 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
-    devise-automaticlogout (0.2.2)
-      devise
-      rails (>= 4)
     devise-two-factor (5.0.0)
       activesupport (~> 7.0)
       devise (~> 4.0)
@@ -272,7 +269,6 @@ DEPENDENCIES
   capybara
   debug
   devise
-  devise-automaticlogout
   devise-two-factor
   figaro
   importmap-rails
