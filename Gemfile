@@ -78,5 +78,4 @@ gem 'devise-two-factor'
 gem 'rqrcode'
 gem 'simple_form'
 gem "figaro"
-gem 'devise-automaticlogout'
 gem 'recaptcha'
